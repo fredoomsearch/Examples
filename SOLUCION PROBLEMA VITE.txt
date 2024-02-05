@@ -1,0 +1,21 @@
+El mensaje de advertencia que estás viendo indica que estás intentando instalar la versión 4.4.1 de create-vite, pero esta versión de create-vite requiere una versión específica de Node.js que no es compatible con la que tienes instalada.
+
+La advertencia dice lo siguiente:
+
+Unsupported engine for create-vite@4.4.1: wanted: {"node":"^14.18.0 || >=16.0.0"}: Esto significa que create-vite@4.4.1 necesita Node.js en la versión ^14.18.0 o >=16.0.0, lo que significa que debe ser igual o mayor a la versión 14.18.0 pero menor que 16.0.0.
+
+(current: {"node":"10.19.0","npm":"6.13.4"}): Esto indica que la versión actual de Node.js que tienes instalada es 10.19.0, lo cual no cumple con los requisitos de la versión create-vite@4.4.1.
+
+Para solucionar este problema, puedes considerar actualizar Node.js a una versión que sea compatible con create-vite@4.4.1. Puedes hacerlo de la siguiente manera:
+
+Descarga e instala una versión de Node.js que sea igual o mayor a 14.18.0 pero menor que 16.0.0 desde el sitio web oficial de Node.js.
+
+Después de la instalación, verifica que la nueva versión de Node.js esté activa ejecutando node -v en tu terminal. Deberías ver la versión actualizada.
+
+Luego, puedes intentar nuevamente instalar create-vite@4.4.1 utilizando npm, y esta vez debería funcionar sin el mensaje de advertencia.
+
+Recuerda que es importante tener cuidado al actualizar Node.js, ya que puede afectar la compatibilidad con otras dependencias en tu proyecto. Asegúrate de realizar pruebas adecuadas después de la actualización para verificar que todo funcione como se espera.
+
+VERIFICAR VERSION DE NODE JS Anarco12 MYSQL
+
+
